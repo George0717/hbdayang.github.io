@@ -102,9 +102,19 @@
   </div>
     </section>
     <!-- Audio -->
-  <audio autoplay>
-    <source src="ghour.mp3" type="audio/mp3">
-  </audio>
+    <script>
+      musik = "ghour.mp3";
+    </script>
+
+    <script>
+      // Jangan hapus kode dibawah ini!
+      musik = new Audio(musik);
+      musik.loop = true;
+      musik.autoplay = true;
+      ucapan();
+      buatLope();
+      makan();
+    </script>
 
 <!-- partial -->
   <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
