@@ -144,7 +144,9 @@ $(document).ready(function(){
 	
 });
 
-
+const audioElement = document.querySelector('audio');
+audioElement.volume = 0.5; // set volume to 50%
+audioElement.play(); // play audio
 
 
 $(window).load(function() {
